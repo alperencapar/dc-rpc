@@ -1,0 +1,20 @@
+{
+	"name": "dc-self-rpc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"exec": "pkg -t node14-win index.js -o dc-rpc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"discord-rpc": "^4.0.1",
+		"dotenv": "^16.0.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}
