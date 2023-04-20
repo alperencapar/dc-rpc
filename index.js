@@ -11,10 +11,10 @@ const activity = async () => {
 	const activityObj = {
 		details: "Detail",
 		state: `State`,
-		largeImageKey: "Image name or link",
-		largeImageText: "Image text",
-		smallImageKey: "Image name or link",
-		smallImageText: "Image text",
+		largeImageKey: "cutie",
+		largeImageText: "Pink and cute snake",
+		smallImageKey: "darkmode",
+		smallImageText: "darkMode",
 		instance: true,
 		partySize: 2,
 		partyMax: 2,
@@ -27,7 +27,7 @@ const activity = async () => {
 		],
 	}
 
-	client.setActivity(acitivityObj)
+	client.setActivity(activityObj)
 }
 
 client.on("ready", () => {
